@@ -1,5 +1,5 @@
 
-#retrieve cliflo weather data
+#retrieve weather data
 weather <- data.frame(date = seq(as.Date('2017-05-01'), Sys.Date(),by = 1))
 
 weather$maxtempC   <- as.numeric('')
